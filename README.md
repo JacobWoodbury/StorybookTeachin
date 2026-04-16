@@ -72,22 +72,6 @@ Create `src/components/Stat.stories.tsx`.
 
 **Stretch:** In one story, pass a `className` from the story args (the component spreads extra `div` props) to tweak spacing — useful for composition demos.
 
-### 6. Exercise — `Card`
-
-Create `src/components/Card.stories.tsx`.
-
-**Goals:**
-
-- A story **with** and **without** `subtitle`.
-- A story that passes **`footer`** — for example, a row with two `Button`s (import `Button` into the story file and pass JSX as `footer`).
-
-**Layout tip:** Cards need width. In that story file’s `meta`, set:
-
-```ts
-parameters: { layout: "padded" },
-```
-
-so the canvas is not too cramped (the global default in `.storybook/preview.ts` is `centered`).
 
 ### 7. Build a static Storybook site
 
