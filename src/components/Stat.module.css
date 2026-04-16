@@ -1,0 +1,52 @@
+.stat {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.06);
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.trend {
+  font-size: 0.65rem;
+}
+
+.up {
+  color: #16a34a;
+}
+
+.down {
+  color: #dc2626;
+}
+
+.flat {
+  color: #94a3b8;
+}
+
+.value {
+  margin-top: 0.35rem;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.hint {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: #64748b;
+}

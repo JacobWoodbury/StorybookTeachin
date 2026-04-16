@@ -297,6 +297,10 @@ FakesAssemblies/
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
+# Vite / Storybook
+dist/
+storybook-static/
+
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 node_modules/
@@ -416,3 +420,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+*storybook.log
