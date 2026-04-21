@@ -1,8 +1,10 @@
 import type { HTMLAttributes, ReactNode } from "react";
 import styles from "./Badge.module.css";
 
-export type BadgeTone = "neutral" | "success" | "warning" | "danger";
+//in storybook we use these as the different states of the badge
+export type BadgeTone = "neutral" | "success" | "warning" | "danger"; 
 
+//define the props for the badge component
 export type BadgeProps = {
   tone?: BadgeTone;
   children: ReactNode;
@@ -14,6 +16,7 @@ export function Badge({
   className,
   ...rest
 }: BadgeProps) {
+  //combine the base styles with the tone styles and the className
   const classes = [styles.badge, styles[tone], className]
     .filter(Boolean)
     .join(" ");
