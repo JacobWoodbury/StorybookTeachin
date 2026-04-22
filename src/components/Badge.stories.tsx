@@ -19,18 +19,12 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
+export const Neutral: Story = {
   args: {
     // set a tone (see `BadgeTone` in Badge.tsx).
     tone: "neutral",
     // set the text shown inside the badge.
     children: "Add text here",
-  } as Story["args"],
-};
-export const Neutral: Story = {
-  args: {
-    tone: "neutral",
-    children: "Neutral state",
   } as Story["args"],
 };
 
